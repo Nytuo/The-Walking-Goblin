@@ -50,4 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+#Custom exclusion
 cmake-build-debug/
+.idea/
