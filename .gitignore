@@ -54,3 +54,4 @@ dkms.conf
 #Custom exclusion
 cmake-build-debug/
 .idea/
+.vscode/
