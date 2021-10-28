@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ba101397/Documents/GitHub/Lutin/project/entetes.c
+stdio.h
+-
+entetes.h
+C:/Users/ba101397/Documents/GitHub/Lutin/project/entetes.h
+
+C:/Users/ba101397/Documents/GitHub/Lutin/project/entetes.h
+stdio.h
+-
+
