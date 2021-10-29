@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "include/gestionGrille.h"
+#include "include/entetes.h"
 
 
 void recuperationGrille (FILE *f, int grille [10][10], int *largeurGrille, int *nbMonstres, monstre tabMonstres [], int *lLutin, int *cLutin, int *lPorte, int *cPorte)

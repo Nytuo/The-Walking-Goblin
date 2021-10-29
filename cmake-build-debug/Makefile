@@ -152,6 +152,30 @@ project/TAD.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/TAD.c.s
 .PHONY : project/TAD.c.s
 
+project/entetes.obj: project/entetes.c.obj
+.PHONY : project/entetes.obj
+
+# target to build an object file
+project/entetes.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/entetes.c.obj
+.PHONY : project/entetes.c.obj
+
+project/entetes.i: project/entetes.c.i
+.PHONY : project/entetes.i
+
+# target to preprocess a source file
+project/entetes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/entetes.c.i
+.PHONY : project/entetes.c.i
+
+project/entetes.s: project/entetes.c.s
+.PHONY : project/entetes.s
+
+# target to generate assembly for a file
+project/entetes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/entetes.c.s
+.PHONY : project/entetes.c.s
+
 project/fonctions.obj: project/fonctions.c.obj
 .PHONY : project/fonctions.obj
 
@@ -175,30 +199,6 @@ project/fonctions.s: project/fonctions.c.s
 project/fonctions.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/fonctions.c.s
 .PHONY : project/fonctions.c.s
-
-project/gestionGrille.obj: project/gestionGrille.c.obj
-.PHONY : project/gestionGrille.obj
-
-# target to build an object file
-project/gestionGrille.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/gestionGrille.c.obj
-.PHONY : project/gestionGrille.c.obj
-
-project/gestionGrille.i: project/gestionGrille.c.i
-.PHONY : project/gestionGrille.i
-
-# target to preprocess a source file
-project/gestionGrille.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/gestionGrille.c.i
-.PHONY : project/gestionGrille.c.i
-
-project/gestionGrille.s: project/gestionGrille.c.s
-.PHONY : project/gestionGrille.s
-
-# target to generate assembly for a file
-project/gestionGrille.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/gestionGrille.c.s
-.PHONY : project/gestionGrille.c.s
 
 project/main.obj: project/main.c.obj
 .PHONY : project/main.obj
@@ -236,12 +236,12 @@ help:
 	@echo ... project/TAD.obj
 	@echo ... project/TAD.i
 	@echo ... project/TAD.s
+	@echo ... project/entetes.obj
+	@echo ... project/entetes.i
+	@echo ... project/entetes.s
 	@echo ... project/fonctions.obj
 	@echo ... project/fonctions.i
 	@echo ... project/fonctions.s
-	@echo ... project/gestionGrille.obj
-	@echo ... project/gestionGrille.i
-	@echo ... project/gestionGrille.s
 	@echo ... project/main.obj
 	@echo ... project/main.i
 	@echo ... project/main.s
