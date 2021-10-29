@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "include/entetesGestionGrille.h"
-#include "include/entetes.h"
+#include "include/gestionGrille.h"
 
 
 int main()

@@ -152,54 +152,6 @@ project/TAD.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/TAD.c.s
 .PHONY : project/TAD.c.s
 
-project/entetes.obj: project/entetes.c.obj
-.PHONY : project/entetes.obj
-
-# target to build an object file
-project/entetes.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/entetes.c.obj
-.PHONY : project/entetes.c.obj
-
-project/entetes.i: project/entetes.c.i
-.PHONY : project/entetes.i
-
-# target to preprocess a source file
-project/entetes.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/entetes.c.i
-.PHONY : project/entetes.c.i
-
-project/entetes.s: project/entetes.c.s
-.PHONY : project/entetes.s
-
-# target to generate assembly for a file
-project/entetes.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/entetes.c.s
-.PHONY : project/entetes.c.s
-
-project/entetesGestionGrille.obj: project/entetesGestionGrille.c.obj
-.PHONY : project/entetesGestionGrille.obj
-
-# target to build an object file
-project/entetesGestionGrille.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.obj
-.PHONY : project/entetesGestionGrille.c.obj
-
-project/entetesGestionGrille.i: project/entetesGestionGrille.c.i
-.PHONY : project/entetesGestionGrille.i
-
-# target to preprocess a source file
-project/entetesGestionGrille.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.i
-.PHONY : project/entetesGestionGrille.c.i
-
-project/entetesGestionGrille.s: project/entetesGestionGrille.c.s
-.PHONY : project/entetesGestionGrille.s
-
-# target to generate assembly for a file
-project/entetesGestionGrille.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.s
-.PHONY : project/entetesGestionGrille.c.s
-
 project/fonctions.obj: project/fonctions.c.obj
 .PHONY : project/fonctions.obj
 
@@ -284,12 +236,6 @@ help:
 	@echo ... project/TAD.obj
 	@echo ... project/TAD.i
 	@echo ... project/TAD.s
-	@echo ... project/entetes.obj
-	@echo ... project/entetes.i
-	@echo ... project/entetes.s
-	@echo ... project/entetesGestionGrille.obj
-	@echo ... project/entetesGestionGrille.i
-	@echo ... project/entetesGestionGrille.s
 	@echo ... project/fonctions.obj
 	@echo ... project/fonctions.i
 	@echo ... project/fonctions.s

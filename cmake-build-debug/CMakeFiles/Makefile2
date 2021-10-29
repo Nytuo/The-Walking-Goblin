@@ -80,12 +80,12 @@ clean: CMakeFiles/Lutin.dir/clean
 CMakeFiles/Lutin.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Lutin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target Lutin"
 .PHONY : CMakeFiles/Lutin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lutin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Lutin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Lutin.dir/rule

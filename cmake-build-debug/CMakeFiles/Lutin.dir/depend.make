@@ -3,17 +3,11 @@
 
 CMakeFiles/Lutin.dir/project/TAD.c.obj: \
  ../project/TAD.c
-CMakeFiles/Lutin.dir/project/entetes.c.obj: \
- ../project/entetes.c \
- ../project/include/entetes.h
-CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.obj: \
- ../project/entetesGestionGrille.c
 CMakeFiles/Lutin.dir/project/fonctions.c.obj: \
  ../project/fonctions.c
 CMakeFiles/Lutin.dir/project/gestionGrille.c.obj: \
  ../project/gestionGrille.c \
- ../project/include/entetes.h
+ ../project/include/gestionGrille.h
 CMakeFiles/Lutin.dir/project/main.c.obj: \
- ../project/include/entetes.h \
- ../project/include/entetesGestionGrille.h \
+ ../project/include/gestionGrille.h \
  ../project/main.c

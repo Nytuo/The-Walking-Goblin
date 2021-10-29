@@ -3,17 +3,11 @@
 
 CMakeFiles/Lutin.dir/project/TAD.c.obj
  C:/Users/ba101397/Documents/GitHub/Lutin/project/TAD.c
-CMakeFiles/Lutin.dir/project/entetes.c.obj
- C:/Users/ba101397/Documents/GitHub/Lutin/project/entetes.c
- C:/Users/ba101397/Documents/GitHub/Lutin/project/include/entetes.h
-CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.obj
- C:/Users/ba101397/Documents/GitHub/Lutin/project/entetesGestionGrille.c
 CMakeFiles/Lutin.dir/project/fonctions.c.obj
  C:/Users/ba101397/Documents/GitHub/Lutin/project/fonctions.c
 CMakeFiles/Lutin.dir/project/gestionGrille.c.obj
  C:/Users/ba101397/Documents/GitHub/Lutin/project/gestionGrille.c
- C:/Users/ba101397/Documents/GitHub/Lutin/project/include/entetes.h
+ C:/Users/ba101397/Documents/GitHub/Lutin/project/include/gestionGrille.h
 CMakeFiles/Lutin.dir/project/main.c.obj
- C:/Users/ba101397/Documents/GitHub/Lutin/project/include/entetes.h
- C:/Users/ba101397/Documents/GitHub/Lutin/project/include/entetesGestionGrille.h
+ C:/Users/ba101397/Documents/GitHub/Lutin/project/include/gestionGrille.h
  C:/Users/ba101397/Documents/GitHub/Lutin/project/main.c

@@ -65,38 +65,10 @@ include CMakeFiles/Lutin.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lutin.dir/flags.make
 
-CMakeFiles/Lutin.dir/project/entetes.c.obj: CMakeFiles/Lutin.dir/flags.make
-CMakeFiles/Lutin.dir/project/entetes.c.obj: CMakeFiles/Lutin.dir/includes_C.rsp
-CMakeFiles/Lutin.dir/project/entetes.c.obj: ../project/entetes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Lutin.dir/project/entetes.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lutin.dir\project\entetes.c.obj -c C:\Users\ba101397\Documents\GitHub\Lutin\project\entetes.c
-
-CMakeFiles/Lutin.dir/project/entetes.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lutin.dir/project/entetes.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ba101397\Documents\GitHub\Lutin\project\entetes.c > CMakeFiles\Lutin.dir\project\entetes.c.i
-
-CMakeFiles/Lutin.dir/project/entetes.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lutin.dir/project/entetes.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ba101397\Documents\GitHub\Lutin\project\entetes.c -o CMakeFiles\Lutin.dir\project\entetes.c.s
-
-CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.obj: CMakeFiles/Lutin.dir/flags.make
-CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.obj: CMakeFiles/Lutin.dir/includes_C.rsp
-CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.obj: ../project/entetesGestionGrille.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lutin.dir\project\entetesGestionGrille.c.obj -c C:\Users\ba101397\Documents\GitHub\Lutin\project\entetesGestionGrille.c
-
-CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ba101397\Documents\GitHub\Lutin\project\entetesGestionGrille.c > CMakeFiles\Lutin.dir\project\entetesGestionGrille.c.i
-
-CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ba101397\Documents\GitHub\Lutin\project\entetesGestionGrille.c -o CMakeFiles\Lutin.dir\project\entetesGestionGrille.c.s
-
 CMakeFiles/Lutin.dir/project/TAD.c.obj: CMakeFiles/Lutin.dir/flags.make
 CMakeFiles/Lutin.dir/project/TAD.c.obj: CMakeFiles/Lutin.dir/includes_C.rsp
 CMakeFiles/Lutin.dir/project/TAD.c.obj: ../project/TAD.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Lutin.dir/project/TAD.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Lutin.dir/project/TAD.c.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lutin.dir\project\TAD.c.obj -c C:\Users\ba101397\Documents\GitHub\Lutin\project\TAD.c
 
 CMakeFiles/Lutin.dir/project/TAD.c.i: cmake_force
@@ -110,7 +82,7 @@ CMakeFiles/Lutin.dir/project/TAD.c.s: cmake_force
 CMakeFiles/Lutin.dir/project/main.c.obj: CMakeFiles/Lutin.dir/flags.make
 CMakeFiles/Lutin.dir/project/main.c.obj: CMakeFiles/Lutin.dir/includes_C.rsp
 CMakeFiles/Lutin.dir/project/main.c.obj: ../project/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Lutin.dir/project/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Lutin.dir/project/main.c.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lutin.dir\project\main.c.obj -c C:\Users\ba101397\Documents\GitHub\Lutin\project\main.c
 
 CMakeFiles/Lutin.dir/project/main.c.i: cmake_force
@@ -124,7 +96,7 @@ CMakeFiles/Lutin.dir/project/main.c.s: cmake_force
 CMakeFiles/Lutin.dir/project/fonctions.c.obj: CMakeFiles/Lutin.dir/flags.make
 CMakeFiles/Lutin.dir/project/fonctions.c.obj: CMakeFiles/Lutin.dir/includes_C.rsp
 CMakeFiles/Lutin.dir/project/fonctions.c.obj: ../project/fonctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Lutin.dir/project/fonctions.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Lutin.dir/project/fonctions.c.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lutin.dir\project\fonctions.c.obj -c C:\Users\ba101397\Documents\GitHub\Lutin\project\fonctions.c
 
 CMakeFiles/Lutin.dir/project/fonctions.c.i: cmake_force
@@ -138,7 +110,7 @@ CMakeFiles/Lutin.dir/project/fonctions.c.s: cmake_force
 CMakeFiles/Lutin.dir/project/gestionGrille.c.obj: CMakeFiles/Lutin.dir/flags.make
 CMakeFiles/Lutin.dir/project/gestionGrille.c.obj: CMakeFiles/Lutin.dir/includes_C.rsp
 CMakeFiles/Lutin.dir/project/gestionGrille.c.obj: ../project/gestionGrille.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Lutin.dir/project/gestionGrille.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Lutin.dir/project/gestionGrille.c.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lutin.dir\project\gestionGrille.c.obj -c C:\Users\ba101397\Documents\GitHub\Lutin\project\gestionGrille.c
 
 CMakeFiles/Lutin.dir/project/gestionGrille.c.i: cmake_force
@@ -151,8 +123,6 @@ CMakeFiles/Lutin.dir/project/gestionGrille.c.s: cmake_force
 
 # Object files for target Lutin
 Lutin_OBJECTS = \
-"CMakeFiles/Lutin.dir/project/entetes.c.obj" \
-"CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.obj" \
 "CMakeFiles/Lutin.dir/project/TAD.c.obj" \
 "CMakeFiles/Lutin.dir/project/main.c.obj" \
 "CMakeFiles/Lutin.dir/project/fonctions.c.obj" \
@@ -161,8 +131,6 @@ Lutin_OBJECTS = \
 # External object files for target Lutin
 Lutin_EXTERNAL_OBJECTS =
 
-Lutin.exe: CMakeFiles/Lutin.dir/project/entetes.c.obj
-Lutin.exe: CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.obj
 Lutin.exe: CMakeFiles/Lutin.dir/project/TAD.c.obj
 Lutin.exe: CMakeFiles/Lutin.dir/project/main.c.obj
 Lutin.exe: CMakeFiles/Lutin.dir/project/fonctions.c.obj
@@ -172,7 +140,7 @@ Lutin.exe: ../project/lib/gestionGrille.a
 Lutin.exe: CMakeFiles/Lutin.dir/linklibs.rsp
 Lutin.exe: CMakeFiles/Lutin.dir/objects1.rsp
 Lutin.exe: CMakeFiles/Lutin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Lutin.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Lutin.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Lutin.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
