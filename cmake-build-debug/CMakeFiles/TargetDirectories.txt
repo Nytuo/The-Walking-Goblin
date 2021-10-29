@@ -1,3 +1,3 @@
-D:/Documents/GitHub/Lutin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Documents/GitHub/Lutin/cmake-build-debug/CMakeFiles/Lutin.dir
-D:/Documents/GitHub/Lutin/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ba101397/Documents/GitHub/Lutin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ba101397/Documents/GitHub/Lutin/cmake-build-debug/CMakeFiles/Lutin.dir
+C:/Users/ba101397/Documents/GitHub/Lutin/cmake-build-debug/CMakeFiles/edit_cache.dir

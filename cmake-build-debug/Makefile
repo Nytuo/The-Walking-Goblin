@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\Logiciels\JetBrains\apps\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\ba101397\Documents\CLion\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\Logiciels\JetBrains\apps\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\ba101397\Documents\CLion\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Documents\GitHub\Lutin
+CMAKE_SOURCE_DIR = C:\Users\ba101397\Documents\GitHub\Lutin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Documents\GitHub\Lutin\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = D:\Documents\GitHub\Lutin\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	D:\Logiciels\JetBrains\apps\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\ba101397\Documents\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -77,7 +77,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	D:\Logiciels\JetBrains\apps\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\ba101397\Documents\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -86,9 +86,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles D:\Documents\GitHub\Lutin\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -200,6 +200,54 @@ project/entetesGestionGrille.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.s
 .PHONY : project/entetesGestionGrille.c.s
 
+project/fonctions.obj: project/fonctions.c.obj
+.PHONY : project/fonctions.obj
+
+# target to build an object file
+project/fonctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/fonctions.c.obj
+.PHONY : project/fonctions.c.obj
+
+project/fonctions.i: project/fonctions.c.i
+.PHONY : project/fonctions.i
+
+# target to preprocess a source file
+project/fonctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/fonctions.c.i
+.PHONY : project/fonctions.c.i
+
+project/fonctions.s: project/fonctions.c.s
+.PHONY : project/fonctions.s
+
+# target to generate assembly for a file
+project/fonctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/fonctions.c.s
+.PHONY : project/fonctions.c.s
+
+project/gestionGrille.obj: project/gestionGrille.c.obj
+.PHONY : project/gestionGrille.obj
+
+# target to build an object file
+project/gestionGrille.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/gestionGrille.c.obj
+.PHONY : project/gestionGrille.c.obj
+
+project/gestionGrille.i: project/gestionGrille.c.i
+.PHONY : project/gestionGrille.i
+
+# target to preprocess a source file
+project/gestionGrille.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/gestionGrille.c.i
+.PHONY : project/gestionGrille.c.i
+
+project/gestionGrille.s: project/gestionGrille.c.s
+.PHONY : project/gestionGrille.s
+
+# target to generate assembly for a file
+project/gestionGrille.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lutin.dir\build.make CMakeFiles/Lutin.dir/project/gestionGrille.c.s
+.PHONY : project/gestionGrille.c.s
+
 project/main.obj: project/main.c.obj
 .PHONY : project/main.obj
 
@@ -242,6 +290,12 @@ help:
 	@echo ... project/entetesGestionGrille.obj
 	@echo ... project/entetesGestionGrille.i
 	@echo ... project/entetesGestionGrille.s
+	@echo ... project/fonctions.obj
+	@echo ... project/fonctions.i
+	@echo ... project/fonctions.s
+	@echo ... project/gestionGrille.obj
+	@echo ... project/gestionGrille.i
+	@echo ... project/gestionGrille.s
 	@echo ... project/main.obj
 	@echo ... project/main.i
 	@echo ... project/main.s
