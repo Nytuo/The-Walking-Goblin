@@ -107,26 +107,26 @@ CMakeFiles/Lutin.dir/project/fonctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lutin.dir/project/fonctions.c.s"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ba101397\Documents\GitHub\Lutin\project\fonctions.c -o CMakeFiles\Lutin.dir\project\fonctions.c.s
 
-CMakeFiles/Lutin.dir/project/entetes.c.obj: CMakeFiles/Lutin.dir/flags.make
-CMakeFiles/Lutin.dir/project/entetes.c.obj: CMakeFiles/Lutin.dir/includes_C.rsp
-CMakeFiles/Lutin.dir/project/entetes.c.obj: ../project/entetes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Lutin.dir/project/entetes.c.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lutin.dir\project\entetes.c.obj -c C:\Users\ba101397\Documents\GitHub\Lutin\project\entetes.c
+CMakeFiles/Lutin.dir/project/gestionGrille.c.obj: CMakeFiles/Lutin.dir/flags.make
+CMakeFiles/Lutin.dir/project/gestionGrille.c.obj: CMakeFiles/Lutin.dir/includes_C.rsp
+CMakeFiles/Lutin.dir/project/gestionGrille.c.obj: ../project/gestionGrille.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ba101397\Documents\GitHub\Lutin\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Lutin.dir/project/gestionGrille.c.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lutin.dir\project\gestionGrille.c.obj -c C:\Users\ba101397\Documents\GitHub\Lutin\project\gestionGrille.c
 
-CMakeFiles/Lutin.dir/project/entetes.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lutin.dir/project/entetes.c.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ba101397\Documents\GitHub\Lutin\project\entetes.c > CMakeFiles\Lutin.dir\project\entetes.c.i
+CMakeFiles/Lutin.dir/project/gestionGrille.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lutin.dir/project/gestionGrille.c.i"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ba101397\Documents\GitHub\Lutin\project\gestionGrille.c > CMakeFiles\Lutin.dir\project\gestionGrille.c.i
 
-CMakeFiles/Lutin.dir/project/entetes.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lutin.dir/project/entetes.c.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ba101397\Documents\GitHub\Lutin\project\entetes.c -o CMakeFiles\Lutin.dir\project\entetes.c.s
+CMakeFiles/Lutin.dir/project/gestionGrille.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lutin.dir/project/gestionGrille.c.s"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ba101397\Documents\GitHub\Lutin\project\gestionGrille.c -o CMakeFiles\Lutin.dir\project\gestionGrille.c.s
 
 # Object files for target Lutin
 Lutin_OBJECTS = \
 "CMakeFiles/Lutin.dir/project/TAD.c.obj" \
 "CMakeFiles/Lutin.dir/project/main.c.obj" \
 "CMakeFiles/Lutin.dir/project/fonctions.c.obj" \
-"CMakeFiles/Lutin.dir/project/entetes.c.obj"
+"CMakeFiles/Lutin.dir/project/gestionGrille.c.obj"
 
 # External object files for target Lutin
 Lutin_EXTERNAL_OBJECTS =
@@ -134,7 +134,7 @@ Lutin_EXTERNAL_OBJECTS =
 Lutin.exe: CMakeFiles/Lutin.dir/project/TAD.c.obj
 Lutin.exe: CMakeFiles/Lutin.dir/project/main.c.obj
 Lutin.exe: CMakeFiles/Lutin.dir/project/fonctions.c.obj
-Lutin.exe: CMakeFiles/Lutin.dir/project/entetes.c.obj
+Lutin.exe: CMakeFiles/Lutin.dir/project/gestionGrille.c.obj
 Lutin.exe: CMakeFiles/Lutin.dir/build.make
 Lutin.exe: ../project/lib/gestionGrille.a
 Lutin.exe: CMakeFiles/Lutin.dir/linklibs.rsp

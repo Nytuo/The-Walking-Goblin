@@ -85,10 +85,10 @@
 		<Unit filename="C:/Users/ba101397/Documents/GitHub/Lutin/project/TAD.c">
 			<Option target="Lutin"/>
 		</Unit>
-		<Unit filename="C:/Users/ba101397/Documents/GitHub/Lutin/project/entetes.c">
+		<Unit filename="C:/Users/ba101397/Documents/GitHub/Lutin/project/fonctions.c">
 			<Option target="Lutin"/>
 		</Unit>
-		<Unit filename="C:/Users/ba101397/Documents/GitHub/Lutin/project/fonctions.c">
+		<Unit filename="C:/Users/ba101397/Documents/GitHub/Lutin/project/gestionGrille.c">
 			<Option target="Lutin"/>
 		</Unit>
 		<Unit filename="C:/Users/ba101397/Documents/GitHub/Lutin/project/include/entetes.h">
