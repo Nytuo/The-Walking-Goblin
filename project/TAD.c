@@ -9,5 +9,5 @@ int deplacementsMonstresLutins (int reponse, int *nbTours, int grille [10][10], 
 //reponse = si on gange ou perd la partie
 //tabMonstres = position des montres sur la gerile
 //llutin/clutin/loporte/cporte = respectivemnet la ligne et colonne du lutin et de la porte
-printf("%d %d",lLutin,lPorte);
+printf("salut");
 }
