@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/ba101397/Documents/GitHub/Lutin/project/entetes.c
+D:/Documents/GitHub/Lutin/project/entetes.c
 stdio.h
 -
-entetes.h
-C:/Users/ba101397/Documents/GitHub/Lutin/project/entetes.h
+include/entetes.h
+D:/Documents/GitHub/Lutin/project/include/entetes.h
 
-C:/Users/ba101397/Documents/GitHub/Lutin/project/entetes.h
+D:/Documents/GitHub/Lutin/project/include/entetes.h
 stdio.h
 -
 

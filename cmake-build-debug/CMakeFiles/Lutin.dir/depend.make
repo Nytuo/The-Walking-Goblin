@@ -5,10 +5,10 @@ CMakeFiles/Lutin.dir/project/TAD.c.obj: \
  ../project/TAD.c
 CMakeFiles/Lutin.dir/project/entetes.c.obj: \
  ../project/entetes.c \
- ../project/entetes.h
+ ../project/include/entetes.h
 CMakeFiles/Lutin.dir/project/entetesGestionGrille.c.obj: \
  ../project/entetesGestionGrille.c
 CMakeFiles/Lutin.dir/project/main.c.obj: \
- ../project/entetes.h \
- ../project/entetesGestionGrille.h \
+ ../project/include/entetes.h \
+ ../project/include/entetesGestionGrille.h \
  ../project/main.c
