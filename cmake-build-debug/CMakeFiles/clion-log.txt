@@ -1,4 +1,0 @@
-C:\Users\ba101397\Documents\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\ba101397\Documents\GitHub\Lutin
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/ba101397/Documents/GitHub/Lutin/cmake-build-debug
