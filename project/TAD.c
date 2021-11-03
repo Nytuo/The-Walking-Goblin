@@ -11,4 +11,3 @@ int deplacementsMonstresLutins (int reponse, int *nbTours, int grille [10][10], 
 //llutin/clutin/loporte/cporte = respectivemnet la ligne et colonne du lutin et de la porte
 printf("salut");
 }
-dd
