@@ -1,32 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "entetes.h"
+#include "include/entetes.h"
 
 
 int main()
 {
     FILE    *fConfig ;                  /// lien vers le fichier conteant les valeurs initiales de la grille
-    FILE    *fDeplLutin ;               /// lien vers le fichier contenant la liste des déplacements du lutin
+    FILE    *fDeplLutin ;               /// lien vers le fichier contenant la liste des dï¿½placements du lutin
     int     largeurGrille ;             /// variables qui permettent
-    int     grille [10][10] ;           /// de représenter la grille
-    int     nbMonstres ;                /// nombre de monstres présents sur la grille (maximum 10)
-    monstre tabMonstres [10] ;          /// tableau qui stocke les coordonnées et les déplacements des monstres
+    int     grille [10][10] ;           /// de reprï¿½senter la grille
+    int     nbMonstres ;                /// nombre de monstres prï¿½sents sur la grille (maximum 10)
+    monstre tabMonstres [10] ;          /// tableau qui stocke les coordonnï¿½es et les dï¿½placements des monstres
     int     lLutin, cLutin ;            /// ligne et colonne du lutin
     int     lPorte, cPorte ;            /// ligne et colonne de la porte de sortie
-    int     finDePartie = 0 ;           /// variable qui détermine que la partie est finie
-                                        /// 0=partie en cours, 1 = partie gagnée, 2 = partie perdue
+    int     finDePartie = 0 ;           /// variable qui dï¿½termine que la partie est finie
+                                        /// 0=partie en cours, 1 = partie gagnï¿½e, 2 = partie perdue
     int     nbTours = 0 ;               /// indique en combien de ours la partie se termine
 
-    int     deplLutin ;                 /// indique le sens de déplacement du lutin
+    int     deplLutin ;                 /// indique le sens de dï¿½placement du lutin
 
 
     /// ////////////////////////////////////////////////////// ///
-    /// récupération de la grille stocké dans un fichier texte ///
+    /// rï¿½cupï¿½ration de la grille stockï¿½ dans un fichier texte ///
     /// ////////////////////////////////////////////////////// ///
     fConfig = fopen ("grille1.txt","r") ;
+    printf("1");
     recuperationGrille (fConfig, grille, &largeurGrille, &nbMonstres, tabMonstres, &lLutin, &cLutin, &lPorte, &cPorte) ;
-
-    /// affichage de la grille récupérée
+    printf("2");
+    /// affichage de la grille rï¿½cupï¿½rï¿½e
     afficherGrille (grille, largeurGrille) ;
     ///afficherMonstres (tabMonstres, nbMonstres) ;
 
