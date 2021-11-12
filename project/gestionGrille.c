@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "include/entetes.h"
+#include "entetes.h"
 
 
 void recuperationGrille (FILE *f, int grille [10][10], int *largeurGrille, int *nbMonstres, monstre tabMonstres [], int *lLutin, int *cLutin, int *lPorte, int *cPorte)
@@ -45,7 +45,7 @@ void afficherMonstres (monstre tabMonstres [], int nbMonstres)
 
 
 /// ///////////////////////////////////////// ///
-/// //////Dï¿½but affichage de la grille/////// ///
+/// //////Début affichage de la grille/////// ///
 /// ///////////////////////////////////////// ///
 
 void afficherLigneVide (int largeur)
