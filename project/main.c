@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "include/entetes.h"
+#include "entetes.h"
 
 
 int main()
@@ -24,9 +24,7 @@ int main()
     /// r�cup�ration de la grille stock� dans un fichier texte ///
     /// ////////////////////////////////////////////////////// ///
     fConfig = fopen ("grille1.txt","r") ;
-    printf("1");
     recuperationGrille (fConfig, grille, &largeurGrille, &nbMonstres, tabMonstres, &lLutin, &cLutin, &lPorte, &cPorte) ;
-    printf("2");
     /// affichage de la grille r�cup�r�e
     afficherGrille (grille, largeurGrille) ;
     ///afficherMonstres (tabMonstres, nbMonstres) ;

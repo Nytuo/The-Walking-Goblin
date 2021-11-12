@@ -6,6 +6,10 @@ include_directories("${CMAKE_SOURCE_DIR}/project")
 
 
 
-add_executable(Lutin "project/include/entetes.h"
-        "project/TAD.c" "project/main.c" "project/fonctions.c" "project/gestionGrille.c" project/TAD.c project/fonctions.c)
+add_executable(Lutin "project/entetes.h"
+        "project/TAD.c" "project/main.c" "project/fonctions.c" "project/entetes.c")
 
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/project/grille1.txt
+        ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/project/deplacementsLutin_grille1.txt
+        ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
