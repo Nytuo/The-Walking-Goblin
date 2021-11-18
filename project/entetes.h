@@ -24,6 +24,9 @@ void afficherLignePleine (int largeur) ;
 void afficherGrille (int grille [10][10], int largeur) ;
 
 
-int deplacementsMonstresLutins (int reponse, int *nbTours, int grille [10][10], int largeurGrille, int nbMonstres,
+int deplacementsMonstresLutins (int sensLutin, int *nbTours, int grille [10][10], int largeurGrille, int nbMonstres,
                                 monstre tabMonstres [], int *lLutin, int *cLutin, int lPorte, int cPorte) ;
+int deplacementLutin(int sensLutin, int *nbTours, int grille [10][10], int largeurGrille, int nbMonstres,
+                      monstre tabMonstres [], int *lLutin, int *cLutin, int lPorte, int cPorte);
+void permutation(int grille[10][10], int *coordX_init, int *coordY_init, int coordX_dest, int coordY_dest);
 #endif
