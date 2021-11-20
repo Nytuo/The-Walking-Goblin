@@ -12,21 +12,32 @@
 #include "entetes.h"
 
 
-int deplacementsMonstresLutins (int sensLutin, int *nbTours, int grille [10][10], int largeurGrille, int nbMonstres,
-                                monstre tabMonstres [], int *lLutin, int *cLutin, int lPorte, int cPorte) {
-    deplacementLutin( sensLutin, nbTours, grille, largeurGrille, nbMonstres,tabMonstres, lLutin, cLutin, lPorte, cPorte);
+int deplacementsMonstresLutins(int sensLutin, int *nbTours, int grille[10][10], int largeurGrille, int nbMonstres,
+                               monstre tabMonstres[], int *lLutin, int *cLutin, int lPorte, int cPorte) {
+    int res = deplacementLutin(sensLutin, nbTours, grille, largeurGrille, nbMonstres, tabMonstres, lLutin, cLutin,
+                               lPorte, cPorte);
     (*nbTours)++;
     printf("%d\n", *nbTours);
-return 0;
+    if (res == 0) {
+        return 0;
+
+    } else if (res == 1) {
+        return 1;
+    } else if (res == -1) {
+        return 2;
+    }
 }
 
-void permutation(int grille [10][10], int *coordX_init, int *coordY_init, int coordX_dest, int coordY_dest) {
+void permutation(int grille[10][10], int *coordX_init, int *coordY_init, int coordX_dest, int coordY_dest) {
     //permutation dans une liste
-    grille[coordX_dest][coordY_dest]=grille[*coordX_init][*coordY_init];
-    grille[*coordX_init][*coordY_init]=0;
+    grille[coordX_dest][coordY_dest] = grille[*coordX_init][*coordY_init];
+    grille[*coordX_init][*coordY_init] = 0;
     *coordY_init = coordY_dest;
     *coordX_init = coordX_dest;
 }
-void deplacementMonstre(){
+
+
+
+void deplacementMonstre() {
 
 }
