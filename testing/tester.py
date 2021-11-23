@@ -20,7 +20,7 @@ def found_files(dossier,dossier2):
         shutil.copyfile(os.getcwd()+"\\"+dossier2+"\\"+listfiles2[i],os.getcwd()+"\\deplacementsLutin_grille1.txt")
         
         prof = get_console("prof","SAe1_01")
-        eleve = get_console("eleve","Lutin.exe")
+        eleve = get_console("eleve","Lutin")
         if prof == eleve:
             print("OK ",i)
         else:

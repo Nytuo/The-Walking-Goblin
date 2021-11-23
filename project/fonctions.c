@@ -1,7 +1,7 @@
 #include "entetes.h"
 
-int deplacementLutin(int sensLutin, int *nbTours, int grille[10][10], int largeurGrille, int nbMonstres,
-                     monstre tabMonstres[], int *lLutin, int *cLutin, int lPorte, int cPorte) {
+int deplacementLutin(int sensLutin, int grille[10][10], int largeurGrille,
+                      int *lLutin, int *cLutin) {
     if (sensLutin == 1) {
         /*gauche*/
         if (grille[*lLutin][*cLutin - 1] == 0) {
@@ -9,7 +9,9 @@ int deplacementLutin(int sensLutin, int *nbTours, int grille[10][10], int largeu
             permutation(grille, lLutin, cLutin, *lLutin, *cLutin - 1);
             return 0;
         } else if (grille[*lLutin][*cLutin - 1] == 2) {
+
             //Si on tombe sur un monstre == mort
+            grille[*lLutin][*cLutin] = 0;
             return -1;
         } else if (grille[*lLutin][*cLutin - 1] == 3) {
             //Si on tombe sur la porte
@@ -29,8 +31,10 @@ int deplacementLutin(int sensLutin, int *nbTours, int grille[10][10], int largeu
             return 0;
         } else if (grille[*lLutin - 1][*cLutin] == 2) {
             //Si on tombe sur un monstre == mort
+            grille[*lLutin - 1][*cLutin] = 0;
+
             return -1;
-        } else if (grille[*lLutin - 1][*cLutin] == 3) {
+        } else if (grille[*lLutin][*cLutin] == 3) {
             //Si on tombe sur la porte
             permutation(grille, lLutin, cLutin, *lLutin - 1, *cLutin);
 
@@ -48,6 +52,8 @@ int deplacementLutin(int sensLutin, int *nbTours, int grille[10][10], int largeu
             return 0;
         } else if (grille[*lLutin][*cLutin + 1] == 2) {
             //Si on tombe sur un monstre == mort
+            grille[*lLutin][*cLutin] = 0;
+
             return -1;
         } else if (grille[*lLutin][*cLutin + 1] == 3) {
             //Si on tombe sur la porte
@@ -66,8 +72,10 @@ int deplacementLutin(int sensLutin, int *nbTours, int grille[10][10], int largeu
             return 0;
         } else if (grille[*lLutin + 1][*cLutin] == 2) {
             //Si on tombe sur un monstre == mort
+            grille[*lLutin][*cLutin + 1] = 0;
+
             return -1;
-        } else if (grille[*lLutin + 1][*cLutin] == 3) {
+        } else if (grille[*lLutin][*cLutin] == 3) {
             //Si on tombe sur la porte
             permutation(grille, lLutin, cLutin, *lLutin + 1, *cLutin);
 
