@@ -33,17 +33,16 @@ void Inverser(monstre *tabMonstres) {
 }
 
 int deplacementMonstres(int grille[10][10], int largeurGrille, int nbMonstres, monstre *tabMonstres) {
-
     //Gère le déplacement des monstres.
     int over = 0;
     int lMonstre, cMonstre;
 
     //Pour chaque monstre, le déplacer (si possible) et vérifier la défaite du monstre.
-    for (int i = 0; i < nbMonstres && over == 0; i++) {
-
+    for (int i = 0; i < nbMonstres; i++) {
         //On récupère les coordonnées de la case devant le monstre (lMonstre, cMonstre).
         RecoverCase(tabMonstres[i].depl, &tabMonstres[i].ligne, &tabMonstres[i].col, &lMonstre,
                     &cMonstre);
+
 
         if (grille[lMonstre][cMonstre] == 1) {
             //Si le monstre entre en collision avec le lutin, la partie est finie (over = 1).
@@ -54,7 +53,9 @@ int deplacementMonstres(int grille[10][10], int largeurGrille, int nbMonstres, m
                    (grille[lMonstre][cMonstre] == 2) || (grille[lMonstre][cMonstre] == 3)) {
 
             //On teste si le monstre quitte la grille ou si il rencontre un autre monstre / la porte et on le fait se retourner puis on teste la case devant lui.
+
             Inverser(&tabMonstres[i]);
+
             RecoverCase(tabMonstres[i].depl, &tabMonstres[i].ligne, &tabMonstres[i].col,
                         &lMonstre,
                         &cMonstre);
@@ -63,15 +64,16 @@ int deplacementMonstres(int grille[10][10], int largeurGrille, int nbMonstres, m
                 //Si le monstre entre en collision avec le lutin, la partie est finie (over = 1).
                 over = 1;
 
-            } else if (((lMonstre <= largeurGrille - 1) || (lMonstre >= 0) || (cMonstre <= largeurGrille - 1) ||
+            } else if (((lMonstre <= largeurGrille - 1) && (lMonstre >= 0) && (cMonstre <= largeurGrille - 1) &&
                         (cMonstre >= 0)) && (grille[lMonstre][cMonstre] == 0)) {
-                printf("trigger %d %d\n", lMonstre, cMonstre);
+
                 //Si le monstre ne quitte pas la grille et peut se déplacer car la case est libre, on le déplace.
                 deplacement(grille, &tabMonstres[i].ligne, &tabMonstres[i].col, lMonstre, cMonstre);
             }
         } else {
 
             //Si la case est libre sans obstacle, on déplace le monstre sur cette case.
+
             deplacement(grille, &tabMonstres[i].ligne, &tabMonstres[i].col, lMonstre, cMonstre);
         }
     }

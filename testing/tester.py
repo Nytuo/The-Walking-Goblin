@@ -6,6 +6,8 @@ import shutil
 def get_console(txt, exe):
     p = subprocess.run([f".\{exe}.exe"], capture_output=True, text=True)
     p = p.stdout
+    p = p.replace("\t","\t\t").replace("M\t","M").replace("S\t","S").replace("L\t","L")
+    
     with open(f'grille_{txt}.txt', "w") as f:
         f.write(p)
     return p

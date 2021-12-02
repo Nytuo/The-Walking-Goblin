@@ -21,10 +21,11 @@ int deplacementsMonstresLutins(int sensLutin, int *nbTours, int grille[10][10], 
     //On gère les déplacements des monstres et du lutin, ainsi que les conditions de victoire / défaite.
     //On appelle deplacementLutin pour déplacer le lutin sur la grille, le resultat est récupéré pour les conditions de victoire et défaite.
     int res = deplacementLutin(sensLutin, grille, largeurGrille, lLutin, cLutin);
+    deplacementMonstres(grille, largeurGrille, nbMonstres, tabMonstres);
     //On incrémente le nombre de tours.
     (*nbTours)++;
 
-    if (res == 1) {
+    /*if (res == 1) {
         //On vérifie si le lutin a atteint la porte de sortie. (res = 1), si oui, on retourne 1, la partie est gagnée.
         return 1;
 
@@ -35,13 +36,15 @@ int deplacementsMonstresLutins(int sensLutin, int *nbTours, int grille[10][10], 
     } else {
         //On fait ce déplacer les monstres seulement si le lutin n'est pas mort et on retourne 2 si un monstre tue le Lutin, sinon on retourne 0 (partie nulle / en cours).
         //On vérifie si le lutin est sur une case vide (res = 0), si oui, on continue.
-        int res2 = deplacementMonstres(grille, largeurGrille, nbMonstres, tabMonstres);
+
+        int res2 =
         if (res2 == 1) {
             return 2;
         }
 
-        return 0;
-    }
+
+    }*/
+    return 0;
 }
 
 int deplacementLutin(int directionLutin, int grille[10][10], int largeurGrille,
