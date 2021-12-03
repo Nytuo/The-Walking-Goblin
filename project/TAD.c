@@ -15,20 +15,50 @@ Aide Mémoire:
 
 #include "entetes.h"
 
+//Modifie le déplacement du monstre
+void modifMonstreDepl(monstre *tabMonstres, int value) {
+    tabMonstres->depl = value;
+}
+
+//Modifie la colonne du monstre
+void modifMonstreC(monstre *tabMonstres, int value){
+    tabMonstres->col = value;
+}
+
+//Modifie la ligne du monstre
+void modifMonstreL(monstre *tabMonstres, int value){
+    tabMonstres->ligne = value;
+}
+
+//Access au déplacement du monstre
+int accessMonstreDepl(monstre Monstres){
+    return Monstres.depl;
+}
+
+//Access à la colonne du monstre
+int* accessMonstreC(monstre *Monstres){
+    return &Monstres->col;
+}
+
+//Access à la ligne du monstre
+int* accessMonstreL(monstre *Monstres){
+    return &Monstres->ligne;
+}
+
 void Inverser(monstre *tabMonstres) {
 
     //Inversion du sens de direction des monstres.
-    if (tabMonstres->depl == 1) {
-        tabMonstres->depl = 3;
+    if (accessMonstreDepl(*tabMonstres) == 1) {
+        modifMonstreDepl(tabMonstres,3);
 
-    } else if (tabMonstres->depl == 2) {
-        tabMonstres->depl = 4;
+    } else if (accessMonstreDepl(*tabMonstres) == 2) {
+        modifMonstreDepl(tabMonstres,4);
 
-    } else if (tabMonstres->depl == 3) {
-        tabMonstres->depl = 1;
+    } else if (accessMonstreDepl(*tabMonstres) == 3) {
+        modifMonstreDepl(tabMonstres,1);
 
-    } else if (tabMonstres->depl == 4) {
-        tabMonstres->depl = 2;
+    } else if (accessMonstreDepl(*tabMonstres) == 4) {
+        modifMonstreDepl(tabMonstres,2);
     }
 }
 
@@ -38,11 +68,10 @@ int deplacementMonstres(int grille[10][10], int largeurGrille, int nbMonstres, m
     int lMonstre, cMonstre;
 
     //Pour chaque monstre, le déplacer (si possible) et vérifier la défaite du monstre.
-    for (int i = 0; i < nbMonstres; i++) {
+    for (int i = 0; i < nbMonstres && over == 0; i++) {
         //On récupère les coordonnées de la case devant le monstre (lMonstre, cMonstre).
-        RecoverCase(tabMonstres[i].depl, &tabMonstres[i].ligne, &tabMonstres[i].col, &lMonstre,
+        RecoverCase(accessMonstreDepl(tabMonstres[i]), accessMonstreL(&tabMonstres[i]), accessMonstreC(&tabMonstres[i]), &lMonstre,
                     &cMonstre);
-
 
         if (grille[lMonstre][cMonstre] == 1) {
             //Si le monstre entre en collision avec le lutin, la partie est finie (over = 1).
