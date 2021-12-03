@@ -1,4 +1,4 @@
-# The Walking Lutin
+# The Walking Goblin
 
 Le projet de la S1.01
 
