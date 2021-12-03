@@ -1,12 +1,9 @@
-# Sprite And Monsters (Nom provisoire, si vous avez mieux hésitez pas)
+# The Walking Lutin
 
 Le projet de la S1.01
 
 Le but de ce jeu est de permettre à un lutin de s’échapper d’une grille
-avant qu’il ne se fasse manger par les monstres. Votre programme doit
-déterminer si le joueur a perdu (le lutin s’est fait manger par les monstres)
-ou gagné (le lutin a réussi à atteindre la porte de sortie sans se faire attraper par un monstre).
-À chaque fin de partie il faut également afficher combien de tours ont été joués.
+avant qu’il ne se fasse manger par les monstres.
 
 ## Les données qui permettent d’initialiser la grille sont lues dans un fichier de configuration.
 
