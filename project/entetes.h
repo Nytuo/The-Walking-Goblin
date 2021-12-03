@@ -24,11 +24,9 @@ int deplacementLutin(int directionLutin, int grille [10][10], int largeurGrille,
 void deplacement(int grille[10][10], int *initL, int *initC, int destL, int destC);
 int deplacementMonstres(int grille[10][10], int largeurGrille, int nbMonstres,
                         monstre tabMonstres[]);
-void RecoverCase(int direction, int *initlMonstre, int *initCmonstre, int *lMonstre, int *Cmonstre);
+void RecoverCase(int direction, int initlMonstre, int initCmonstre, int *lMonstre, int *Cmonstre);
 void Inverser(monstre *tabMonstres);
 void modifMonstreDepl(monstre *tabMonstres, int value);
-void modifMonstreC(monstre *tabMonstres, int value);
-void modifMonstreL(monstre *tabMonstres, int value);
 int accessMonstreDepl(monstre Monstres);
 int* accessMonstreC(monstre *Monstres);
 int* accessMonstreL(monstre *Monstres);
